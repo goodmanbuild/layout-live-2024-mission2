@@ -1,0 +1,281 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+*{
+    /* outline: 1px solid yellow; */
+}
+
+/* layout */
+
+body{
+    font-family: "Bruno Ace SC",sans-serif;
+    line-height: 1.5;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{    
+    height: auto;
+    vertical-align: middle;
+}
+
+
+/* component */
+
+.btn{
+    padding: 12px 24px;
+    border-radius: 32px;
+    width: 185px;
+    display: inline-block;
+}
+
+.btn-light{
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.btn-dark{
+    background: #000000;
+    color: #ffffff;
+}
+
+/* page */
+.header a {
+    color: #D1D1D1;
+}
+
+.nav{
+    padding: 52px;
+}
+
+.banner{
+    background-color: #000;
+    color: white;
+    padding-top: 72px;
+    padding-bottom: 32px;
+}
+
+.banner-title-strong{
+    display: block;
+    text-align: right;
+}
+
+.intro{
+    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/background-img.png?raw=true);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    padding: 160px 0;;
+}
+
+.intro-desc{
+    width: 526px;
+}
+
+.about{
+    padding: 160px 0;
+}
+
+.about-desc{
+    width: 526px;
+}
+
+.about-list{
+    width: 636px;
+    color: #15161D;
+}
+
+.about-list li {    
+    width: calc(50% - 12px);        
+    border: 1px solid rgba(227, 227, 227, 1);
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.008);
+}
+
+.contact {
+    padding: 96px 0;
+}
+
+.contact-title{
+    width: 657px;
+    margin-right:113px;   
+}
+
+.social-link{
+    border-radius: 40px;    
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+
+.social-link:hover{    
+    box-shadow: 0px 0px 16px 3px rgba(144, 148, 255, 0.9);        
+    transform: 1s;
+}
+
+.project{
+    padding: 160px 0;
+}
+
+.project-title{
+    width: 746px;
+    margin-left: auto;
+}
+
+.footer{
+    padding: 40px 0;
+}
+
+/* utils */
+
+.container {
+    width: 1296px;
+    margin: 0 auto;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.text-center{
+    text-align: center;
+}
+
+
+.h1{
+    font-size: 128px;
+}
+
+.h2{
+    font-size: 64px;
+}
+
+.fs-1{
+    font-size: 32px;
+}
+
+.fs-2 {
+    font-size: 24px;
+}
+
+.fs-3 {
+    font-size: 20px;
+}
+
+.text-primary{
+    color:#00ffa3;
+}
+
+.text-white{
+    color:#ffffff;
+}
+
+.text-black{
+    color:#000000;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+
+.align-items-center{
+    align-items: center;
+}
+
+
+
+.align-items-start{
+    align-items: start;
+}
+
+.justify-content-between{
+    justify-content: space-between;
+}
+
+.justify-content-center{
+    justify-content: center;
+}
+
+.justify-content-end {
+    justify-content: flex-end;
+}
+
+.justify-content-start {
+    justify-content: flex-start;
+}
+
+.bg-dark{
+    background-color:#000000;
+}
+
+.p-4{
+    padding:16px;
+}
+
+.gap-1{
+    gap:4px;
+}
+
+.gap-4{
+    gap:16px;
+}
+
+.gap-5{
+    gap: 20px;
+}
+
+.gap-6{
+    gap: 24px;
+}
+
+.gap-7{
+    gap:28px;
+}
+
+.ml-1{
+    margin-left: 4px;
+}
+
+.mr-5{
+    margin-right: 20px;
+}
+
+.mr-6{
+    margin-right: 24px;
+}
+
+.mr-1{
+    margin-right: 4px;
+}
+
+.mb-4{
+    margin-bottom: 16px;
+}
+
+.mb-6{
+    margin-bottom: 24px;
+}
+
+.mb-7{
+    margin-bottom: 28px;
+}
+
+.mb-8{
+    margin-bottom: 32px;
+}
+
+.mb-9{
+    margin-bottom: 36px;
+}
+
